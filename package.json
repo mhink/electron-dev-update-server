@@ -1,0 +1,19 @@
+{
+  "name": "electron-dev-update-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "APP_NAME=TheNameOfMyApp PORT=3001 SECURE_PORT=3002 node server.js",
+    "dev": "./node_modules/.bin/nodemon server.js"
+  },
+  "author": "Matt Hink <matt.hink@formidable.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
